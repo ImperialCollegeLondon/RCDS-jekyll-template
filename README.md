@@ -1,18 +1,16 @@
 # Minimal Mistakes remote theme starter
 
-> [!IMPORTANT]  
-> Give GitHub Actions **Read and write permissions** on this repo<br>
-> Settings ➡️ Actions ➡️ General ➡️ Workflow Permissions
-
-> [!IMPORTANT]  
-> Enable GitHub Pages<br>
-> Settings ➡️ Pages ➡️ Build & Deployment ➡️ Source ➡️ GitHub Actions
-
-> [!IMPORTANT]  
-> Change respository name<br>
-> Click on `_config.yml` ➡️ Edit this file ➡️ `repository:` ➡️ (replace with your username/repository)
-
 Click [**Use this template**](https://github.com/ImperialCollegeLondon/RCDS-jekyll-template/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+
+> [!IMPORTANT]  
+> In your newly created repository, complete the following:
+>
+> 1. Give GitHub Actions Read and write permissions on this repo  
+>    Settings ➡️ Actions ➡️ General ➡️ Workflow Permissions
+> 1. Enable GitHub Pages<br>
+>    Settings ➡️ Pages ➡️ Build & Deployment ➡️ Source ➡️ GitHub Actions
+> 1. Change respository name<br>
+> Click on `_config.yml` ➡️ Edit this file ➡️ `repository:` ➡️ (replace with your username/repository)
 
 Contains basic configuration to get you a site with:
 
