@@ -1,3 +1,20 @@
 {
-    "postCreateCommand": "bundle install"
+  "name": "Jekyll Teaching Container",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "markdown.preview.security.level": "allow-insecure-local-content",
+        "extensions.ignoreRecommendations": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+        "git.postCommitCommand": "sync",
+        "git.autofetch": true,
+        "githubPullRequests.createOnPublishBranch": "never",
+        "git.useEditorAsCommitInput": false,
+        "git.rebaseWhenSync": true,
+        "terminal.integrated.ignoreProcessKeybindingWarnings": true
+      }
+    }
+  },
+  "postCreateCommand": "bundle install"
 }
